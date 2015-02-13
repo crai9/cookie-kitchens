@@ -1,0 +1,15 @@
+<table>
+<tr>
+<th>Name</th>
+<th>Quantity</th
+<th>Remove</th>
+<th>Remove</th>
+<th>Price</th>
+</tr>
+    <tr>
+        <td>Shoe</td>
+        <td>3</td>
+        <td>X</td>
+        <td>9</td>
+    </tr>
+</table>
