@@ -9,7 +9,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Cookie Kitchens</title>
-        <link rel="icon" href="http://icdn.pro/images/en/c/o/cookie-icone-7741-128.png" />
+        <link rel="icon" href="/img/icon/cookie.png" />
         <link rel="stylesheet" href="cookies.css" type="text/css" />
         <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
