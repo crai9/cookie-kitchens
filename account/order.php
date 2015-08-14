@@ -91,12 +91,12 @@ if ($existCount == 0) {
                 
 				<p>Welcome to the logged in area. You are logged in as <?php echo $user  ?>.</p>
                                 <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
+                                <br>
                                 <h4><p>Order</p></h4>
-                                </br>
+                                <br>
                                 <p><a class ="link" href="order.php">Show all</a></p>
                                         <p><a class ="link" href="index.php">Back to index</a></p>
-                                                                        </br>
+                                                                        <br>
 
                                 <?php
 if(!isset($_GET['id'])){
@@ -149,8 +149,8 @@ while($row = mysqli_fetch_array($result)) {
 echo "</table>";
 mysqli_close($con);
 ?>
-                                </br>
-                                </br>
+                                <br>
+                                <br>
                                 
 
             </div>

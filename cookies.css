@@ -372,7 +372,6 @@ p {
 	table, th, td{
 	border-collapse:collapse;
 	border: 1px solid black;
-	align: center;
 	margin: 0px auto;
 	}
 	
@@ -394,7 +393,6 @@ p {
 	}
 	
 	table{
-	align: center;
 	width: 85%;
 	margin: 0px auto;
 	}

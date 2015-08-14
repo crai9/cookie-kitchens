@@ -83,17 +83,13 @@ $adminPassword = preg_replace('#[^A-Za-z0-9]#i', '', $_SESSION["adminPassword"])
              <h3>Admin</h3>
 
             <div class="box shadow">
-                                </br>
+                                <br>
 				<p>Logged in as: <?php echo $admin  ?>. Access rights at level: <?php echo $adminAccess  ?></p>
-                                </br>
-                                <a href='index.php' class='link'><p>Back to index</p></a>
+                                <<br>                                <a href='index.php' class='link'><p>Back to index</p></a>
                                 <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
-                                <h4><p>Manage Products</p></h4>
+                                </<br>                               <h4><p>Manage Products</p></h4>
                                 
-            </br>
-            </br>
-                                
+            </b<br>          </br<br>
                                             <?php
 
     $con=mysqli_connect("localhost","php_user","php_pass","cookie_kitchens");
@@ -191,8 +187,7 @@ while($row = mysqli_fetch_array($query)) {
 
   mysqli_close($con);
 ?>
-            </br>
-            </br>
+            </br><br>        </br>
                                 
 
                                         

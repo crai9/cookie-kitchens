@@ -73,20 +73,27 @@
 <script>
 function doAjax() {
 
-  if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp=new XMLHttpRequest();
-  } else { // code for IE6, IE5
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-  xmlhttp.onreadystatechange=function() {
-    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-      document.getElementById("output").innerHTML=xmlhttp.responseText;
+    var query = document.getElementById('query').value;
+
+    if(query != ''){
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        } else { // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function() {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+                document.getElementById("output").innerHTML=xmlhttp.responseText;
+            }
+        };
+        var query = document.getElementById('query').value;
+        xmlhttp.open("GET","fetch.php?q="+query,true);
+        xmlhttp.send();
+    } else {
+        document.getElementById("output").innerHTML='';
     }
-  };
-  var query = document.getElementById('query').value;
-  xmlhttp.open("GET","fetch.php?q="+query,true);
-  xmlhttp.send();
+
 }
 </script>
 

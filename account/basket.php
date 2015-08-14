@@ -97,9 +97,9 @@ if ($existCount == 0) {
 echo $user;
 ?>.</p>
                                 <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
+                                <br>
                                 <h4><p>Basket</p></h4>
-                                </br>
+                                <br>
 
 <?php
 include "../scripts/dal.php";
@@ -181,11 +181,11 @@ if ($_SESSION['cart']) { //if the cart isn't empty
     
     //show the total
     echo "<tr>";
-    echo "</br>";
+    echo "<br>";
     echo "<td colspan=\"2\" align=\"center\"></td>";
     echo "<td align=\"center\">Total:    $total</td>";
     echo "</tr>";
-    echo "</br>";
+    echo "<br>";
     echo "</table>";
     $_SESSION['total'] = $total;
     
@@ -205,7 +205,7 @@ function productExists($product_id)
     return mysql_num_rows(mysql_query($sql)) > 0;
 }
 ?>
-</br>
+<br>
 <p>
 <a class='link' href="basket.php?action=empty" onclick="return confirm('Are you sure?');">Empty Basket</a>
 <a class="link"href="order.php">Continue Shopping</a>

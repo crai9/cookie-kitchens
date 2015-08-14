@@ -71,13 +71,13 @@
 
             <div class="box shadow">
                 <p style="padding-top: 15px; font-size:28px;">Welcome to Cookie Kitchens' website!</p>
-                </br>
-                </br>
+                <br>
+                <br>
 				<p>Cookie Kitchens specialise in designing and installing kitchens for the customer to their requirements.</p>
 				<p>Our customers can also buy individual products from us.</p>
-				</br>
+				<br>
 				<p>Some of our website's features that might interest you include...</p>
-				</br>
+				<br>
 				<p>Account creation</p>
 				<p>Full Kitchens to order</p>
 				<p>Product search</p>
@@ -88,10 +88,10 @@
 				
 				
 				
-				</br>
-				</br>
+				<br>
+				<br>
 				<p>Take a look at some of our sample kitchens below...</p>
-				</br>
+				<br>
                 <div class="container">
                     <div id="slides">
                         <img src="img/kit1.jpg">

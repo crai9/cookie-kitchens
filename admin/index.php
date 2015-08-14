@@ -88,14 +88,10 @@ if ($existCount == 0) {
              <h3>Admin</h3>
 
             <div class="box shadow">
-                                </br>
-				<p>Logged in as: <?php echo $admin  ?>. Access rights at level: <?php echo $adminAccess  ?></p>
-                                </br>
-                                <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
-                                <h4><p>Administrative Tasks...</p></h4>
-            </br>
-            </br>
+                                <br>				<p>Logged in as: <?php echo $admin  ?>. Access rights at level: <?php echo $adminAccess  ?></p>
+                                <<<br>                              <a href="logout.php" class="link"><p>Logout</p></a>
+                                </br<br>                             <h4><p>Administrative Tasks...</p></h4>
+            </br><br>        </br>
                                 <?php
                                 switch($adminAccess){
                                     case 1: 

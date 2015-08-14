@@ -91,9 +91,9 @@ if ($existCount == 0) {
                 
 				<p>Welcome to the logged in area. You are logged in as <?php echo $user  ?>.</p>
                                 <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
+                                <br>
                                 <h4><p>Checkout</p></h4>
-                                </br>
+                                <br>
                                 <?php
 foreach ($_SESSION['cart'] as $product_id => $quantity) {
         
@@ -117,18 +117,18 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
             echo "Quantity: ".$quantity . ", ";
             echo "Line total: ".$line_cost.", ";
             
-            echo "</p></br>";
+            echo "</p><br>";
             
         }
         
     }
                             
 
-                            echo "</p></br>";   
+                            echo "</p><br>";
                             
                             echo "<p>";
                             echo "Total is: £" . $_SESSION['total'];
-                            echo "</p></br>";
+                            echo "</p><br>";
                             
                             echo "<p>";
                             echo "Days till expected installation: " .(rand(1,5));
@@ -139,12 +139,12 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
                             echo "<input name='items' value='".implode(", ", $_SESSION['cart'])."' type='hidden'>";
                             echo "<input name='total' value='".$_SESSION['total']."' type='hidden'>";
                             echo "<input name='customer' value='".$_SESSION['userID']."' type='hidden'>";
-                            echo "</br><p>Payment method: <select name='payment'>
+                            echo "<br><p>Payment method: <select name='payment'>
                             <option value='cash'>Cash on installation</option>
                             <option value='paypal'>PayPal</option>
                             <option value='card'>Card</option>
                             </select></p>";
-                            echo "</br><p><input type='submit' value='Confirm'></p></form>"
+                            echo "<br><p><input type='submit' value='Confirm'></p></form>"
                             ?>
             </div>
         </div>

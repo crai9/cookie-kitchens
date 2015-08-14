@@ -92,8 +92,8 @@ if ($existCount == 0) {
                 
 				<p>Welcome to the logged in area. You are logged in as <?php echo $user  ?>.</p>
                                 <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
-                                </br>
+                                <br>
+                                <br>
                                     <p><a class="link"href="order.php">Order Items</a>
 <a class="link"href="account.php">Account settings</a></p>
             </div>

@@ -93,9 +93,9 @@ if ($existCount == 0) {
 echo $user;
 ?>.</p>
                                 <a href="logout.php" class="link"><p>Logout</p></a>
-                                </br>
+                                <br>
                                 <h4><p>Basket</p></h4>
-                                </br>
+                                <br>
 <?php
 
 if (isset($_POST['customer']) && isset($_POST['payment']) && isset($_POST['total']) && isset($_POST['items'])) {
