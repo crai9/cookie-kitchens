@@ -23,8 +23,7 @@
             <div class="main">
                 <div class="sup">
                     <div class="sub">
-                        <div class="point"></div><a href=<?php echo($_SERVER["DOCUMENT_ROOT"] . "kitchens.php");
-?>>Kitchens</a>
+                        <div class="point"></div><a href="kitchens.php">Kitchens</a>
                     </div>
                 </div>
                 <div class="sup">
