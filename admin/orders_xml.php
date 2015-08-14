@@ -51,4 +51,3 @@ $xml->endElement();
 
 header('Content-type: text/xml'); //define document type
 $xml->flush();
-?>

@@ -7,4 +7,3 @@ require "dal.php";
 
 echo "<h1>Successful connection to database!</h1>";   
 // if no success the script would have died before this success message 
-?>

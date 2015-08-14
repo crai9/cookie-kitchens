@@ -722,4 +722,4 @@ $.fn.extend({
 });
 
 
-},{"jquery.payment":1}]},{},[2])
+},{"jquery.payment":1}]},{},[2]);

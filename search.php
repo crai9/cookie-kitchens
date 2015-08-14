@@ -83,7 +83,7 @@ function doAjax() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200) {
       document.getElementById("output").innerHTML=xmlhttp.responseText;
     }
-  }
+  };
   var query = document.getElementById('query').value;
   xmlhttp.open("GET","fetch.php?q="+query,true);
   xmlhttp.send();
@@ -93,7 +93,7 @@ function doAjax() {
 <p style="padding-top: 15px;">On this page you can search our database of products to find something that suits your needs.</p>
 <p style="padding-top: 5px;">Your query results should be returned as you type them.</p>
 <form>
-    <p><input style="font-size: 18;"type="text" id="query" onKeyUp="doAjax() "onkeypress="doAjax()"/></p>
+    <p><input style="font-size: 18px;"type="text" id="query" onKeyUp="doAjax() "onkeypress="doAjax()"/></p>
 <!--<input type='button' onclick='doAjax()' value='Query Products'/>-->
 </form>
 
@@ -101,7 +101,7 @@ function doAjax() {
 
             </div>
         </div>
-		<div id="footer"><span style="padding-left: 20px; font-size:23;">Craig Miller / Cookie Kitchens &copy;</span></div>
+		<div id="footer"><span style="padding-left: 20px; font-size:23px;">Craig Miller / Cookie Kitchens &copy;</span></div>
     </body>
 
 </html>

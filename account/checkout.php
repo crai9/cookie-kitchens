@@ -136,7 +136,7 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
                             
                             //form
                             echo "<form action ='complete.php' method='post'>";
-                            echo "<input name='items' value='".$_SESSION['cart']."' type='hidden'>";
+                            echo "<input name='items' value='".implode(", ", $_SESSION['cart'])."' type='hidden'>";
                             echo "<input name='total' value='".$_SESSION['total']."' type='hidden'>";
                             echo "<input name='customer' value='".$_SESSION['userID']."' type='hidden'>";
                             echo "</br><p>Payment method: <select name='payment'>
@@ -148,7 +148,7 @@ foreach ($_SESSION['cart'] as $product_id => $quantity) {
                             ?>
             </div>
         </div>
-		<div id="footer"><span style="padding-left: 20px; font-size:23;">Craig Miller / Cookie Kitchens &copy;</span></div>
+		<div id="footer"><span style="padding-left: 20px; font-size:23px;">Craig Miller / Cookie Kitchens &copy;</span></div>
     </body>
 
 </html>

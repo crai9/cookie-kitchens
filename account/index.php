@@ -98,7 +98,7 @@ if ($existCount == 0) {
 <a class="link"href="account.php">Account settings</a></p>
             </div>
         </div>
-		<div id="footer"><span style="padding-left: 20px; font-size:23;">Craig Miller / Cookie Kitchens &copy;</span></div>
+		<div id="footer"><span style="padding-left: 20px; font-size:23px;">Craig Miller / Cookie Kitchens &copy;</span></div>
     </body>
 
 </html>

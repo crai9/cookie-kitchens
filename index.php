@@ -70,7 +70,7 @@
              <h3>Homepage</h3>
 
             <div class="box shadow">
-                <p style="padding-top: 15px; font-size:28;">Welcome to Cookie Kitchens' website!</p>
+                <p style="padding-top: 15px; font-size:28px;">Welcome to Cookie Kitchens' website!</p>
                 </br>
                 </br>
 				<p>Cookie Kitchens specialise in designing and installing kitchens for the customer to their requirements.</p>
@@ -102,7 +102,7 @@
                 </div>
             </div>
         </div>
-		<div id="footer"><span style="padding-left: 20px; font-size:23;">Craig Miller / Cookie Kitchens &copy;</span></div>
+		<div id="footer"><span style="padding-left: 20px; font-size:23px;">Craig Miller / Cookie Kitchens &copy;</span></div>
     </body>
 
 </html>
